@@ -19,7 +19,7 @@
 /* iPads */
 @media screen and (max-width: 992px) {
     .container {
-        width: 650px;
+        width: 700px;
     }
     .logo {
         width: 200px;
