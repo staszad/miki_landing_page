@@ -1,0 +1,48 @@
+@media screen and (max-width: 1370px) {
+    #banner-kids {
+        width: 45vw;
+    }
+    .logo {
+        width: 20vw;
+        margin-left: 0;
+    }
+    #banner-text {
+        width: 30vw;
+    }
+    .gallery-photo {
+        width: 16vw;
+    }
+    .container {
+        width: 85vw;
+    }
+}
+/* iPads */
+@media screen and (max-width: 992px) {
+    .container {
+        width: 650px;
+    }
+    .logo {
+        width: 200px;
+    }
+    .nav-top {
+        width: 85%;
+    }
+    #banner-cloud1 {
+        left: 0px;
+    }
+    #banner-cloud2 {
+        left: 450px;
+    }
+    #banner-text {
+        width: 300px;
+        bottom: 150px;
+        left: -50px;
+    }
+    #banner-kids {
+        width: 450px;
+        right: -50px;
+    }
+    .gallery-photo {
+        width: 160px;
+    }
+}

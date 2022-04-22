@@ -58,3 +58,21 @@
     bottom: -450px;
     right: -40px;
 }
+#c-black-4 {
+    background-color: var(--black);
+    width: 80px;
+    height: 80px;
+    left: -120px;
+    bottom: -25px;
+}
+#c-yellow-4 {
+    bottom: -170px;
+    left: -30px;
+}
+#c-red-4 {
+    background-color: var(--red);
+    width: 100px;
+    height: 100px;
+    left: -140px;
+    bottom: -230px;
+}

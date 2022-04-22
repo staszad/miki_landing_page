@@ -24,21 +24,22 @@
         ></script>
         <link rel="stylesheet" href="style/reset.css" />
         <link rel="stylesheet" href="style/main.css" />
-        <link rel="stylesheet" href="style/header.css" />
         <link rel="stylesheet" href="style/circles.css" />
+        <link rel="stylesheet" href="style/ipad.css" />
+        <link rel="stylesheet" href="style/phone.css" />
     </head>
     <body>
         <header>
             <div class="header-phone">
                 <div
-                    class="h-100 container-md d-flex justify-content-end align-items-center"
+                    class="h-100 container d-flex justify-content-end align-items-center"
                 >
                     <p class="m-0 mt-2">ZADZWOŃ</p>
                     <strong class="strong-phone">+48 513 107 025</strong>
                 </div>
             </div>
             <div class="header-nav">
-                <div class="container-md d-flex justify-content-between">
+                <div class="container d-flex justify-content-between">
                     <img src="graphics/logo.png" class="logo" />
                     <nav
                         class="d-flex justify-content-between nav-top align-items-center"
@@ -46,26 +47,26 @@
                         <a href="#about">O NAS</a>
                         <a href="#offer">OFERTA</a>
                         <a href="#gallery">GALERIA</a>
-                        <a href="#callendar">KALENDARZ IMPREZ</a>
+                        <a href="#calendar">KALENDARZ IMPREZ</a>
                         <a href="#contact">KONTAKT</a>
                     </nav>
                 </div>
             </div>
             <div class="header-banner">
-                <div class="container-md p-rel h-100">
+                <div class="container p-rel h-100">
                     <img src="./graphics/baner-napis.png" id="banner-text" />
                     <img src="./graphics/ch-1.png" id="banner-cloud1" />
                     <img src="./graphics/ch-2.png" id="banner-cloud2" />
-                    <img src="./graphics/ch-3.png" id="banner-cloud3" />
+                    <img src="./graphics/ch-3.png" id="banner-cloud3" class="d-none d-lg-block"/>
                     <img src="./graphics/baner-dzieci.png" id="banner-kids" />
                 </div>
             </div>
         </header>
         <main>
             <section id="about">
-                <h2 class="container-md">O nas</h2>
+                <h2 class="container">O nas</h2>
                 <div
-                    class="container-md d-flex justify-content-between p-rel h-100"
+                    class="container d-flex justify-content-between p-rel h-100"
                 >
                     <div class="placeholder"></div>
                     <img
@@ -117,8 +118,8 @@
                 </div>
             </section>
             <section id="offer">
-                <h2 class="container-md">Oferta</h2>
-                <div class="container-md">
+                <h2 class="container">Oferta</h2>
+                <div class="container">
                     <div class="row row-cols-3 justify-content-between">
                         <div class="col offer-el d-flex flex-column align-items-center">
                             <img src="./graphics/ikona-miki.png" class="offer-icon" />
@@ -165,21 +166,150 @@
                     </div>
                 </div>
             </section>
-            <section class="banner">
-                <div class="container-md d-flex flex-column align-items-center justify-content-center h-100 p-rel">
+            <section id="banner">
+                <div class="container d-flex flex-column align-items-center justify-content-center h-100 p-rel">
                     <h4>Potrzebujesz pomocy w organizacji imprezy dla swojej pociechy?</h4>
-                    <a href="#contact" class="button d-flex align-items-center"> SKONTAKTUJ SIĘ Z NAMI!</a>
+                    <a href="#contact" class="button d-flex align-items-center justify-content-center">SKONTAKTUJ SIĘ Z NAMI!</a>
                     <img src="./graphics/dzieci.jpg" id="banner-photo" class="circle-abs circle">
                 </div>
             </section>
             <section id="gallery">
-                <h2 class="container-md">Galeria</h2>
-                <div class="container-md d-flex flex-column align-items-center justify-content-center">
-                    <div class="row row-colls-5 justify-content-between"></div>
-                    <a href="#contact" class="button d-flex align-items-center">ZOBACZ WIĘCEJ - ODWIEDŹ NASZ PROFIL FB</a>
+                <h2 class="container">Galeria</h2>
+                <div class="container d-flex flex-column align-items-center justify-content-center">
+                    <div class="row row-cols-3 row-cols-md-4 row-cols-l-5 justify-content-between">
+                        <img src="./graphics/gallery/1.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/2.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/3.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/4.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/5.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/6.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/7.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/8.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/9.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/10.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/11.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/1.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/2.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/3.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/4.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/5.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/6.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/7.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/8.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/9.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/10.png" class="col gallery-photo d-none d-lg-block">
+                        <img src="./graphics/gallery/11.png" class="col gallery-photo d-none d-lg-block">
+                        <img src="./graphics/gallery/4.png" class="col gallery-photo d-none d-lg-block">
+                        <img src="./graphics/gallery/7.png" class="col gallery-photo d-none d-lg-block">
+                        <img src="./graphics/gallery/1.png" class="col gallery-photo d-none d-lg-block">
+                    </div>
+                    <a href="https://www.facebook.com/" class="button d-flex align-items-center">ZOBACZ WIĘCEJ - ODWIEDŹ NASZ PROFIL FB</a>
+                </div>
+            </section>
+            <section id="gradient" class="d-flex align-items-center">
+                <div class="container d-flex flex-column align-items-center justify-content-center p-rel">
+                    <h4>Współpracujemy z pasjonatami fotografii i licencjonowanymi kierowcami</h4>
+                    <a href="#contact" class="button d-flex align-items-center justify-content-center">CHCESZ PODJĄĆ WSPÓŁPRACĘ? SKONTAKTUJ SIĘ Z NAMI!</a>
+                    <div class="circle-abs circle" id="c-black-4"></div>
+                    <div class="circle-abs circle" id="c-red-4"></div>
+                    <img
+                        src="./graphics/kolko-mniejsze.png"
+                        class="circle-abs"
+                        id="c-yellow-4"
+                    />
+                </div>
+            </section>
+            <section id="calendar" >
+                <h2 class="container">Kalendarz imprez</h2>
+                <div class="container">
+                    <div class="row row-colls-2 justify-content-between">
+                        <div class="calendar-el">
+                            <div class="calendar-date">data: 
+                                <strong class="calendar-strong">01.01.2019 r.</strong>
+                            </div>
+                            <h3 class="calendar-h">"Karnawał dla maluchów"</h3>
+                            <p class="regular">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quam hic quasi reprehenderit excepturi ex, sequi beatae. Rerum molestiae adipisci cumque, delectus itaque, commodi sunt alias earum assumenda architecto beatae</p>
+                            <a href="#contact" class="button d-flex align-items-center justify-content-center">ZAREZERWUJ MIEJSCE</a>
+                        </div>
+                        <div class="calendar-el">
+                            <div class="calendar-date">data: 
+                                <strong class="calendar-strong">01.01.2019 r.</strong>
+                            </div>
+                            <h3 class="calendar-h">"Karnawał dla maluchów"</h3>
+                            <p class="regular">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quam hic quasi reprehenderit excepturi ex, sequi beatae. Rerum molestiae adipisci cumque, delectus itaque, commodi sunt alias earum assumenda architecto beatae</p>
+                            <a href="#contact" class="button d-flex align-items-center justify-content-center">ZAREZERWUJ MIEJSCE</a>
+                        </div>
+                        <div class="calendar-el">
+                            <div class="calendar-date">data: 
+                                <strong class="calendar-strong">01.01.2019 r.</strong>
+                            </div>
+                            <h3 class="calendar-h">"Karnawał dla maluchów"</h3>
+                            <p class="regular">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quam hic quasi reprehenderit excepturi ex, sequi beatae. Rerum molestiae adipisci cumque, delectus itaque, commodi sunt alias earum assumenda architecto beatae</p>
+                            <a href="#contact" class="button d-flex align-items-center justify-content-center">ZAREZERWUJ MIEJSCE</a>
+                        </div>
+                        <div class="calendar-el">
+                            <div class="calendar-date">data: 
+                                <strong class="calendar-strong">01.01.2019 r.</strong>
+                            </div>
+                            <h3 class="calendar-h">"Karnawał dla maluchów"</h3>
+                            <p class="regular">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quam hic quasi reprehenderit excepturi ex, sequi beatae. Rerum molestiae adipisci cumque, delectus itaque, commodi sunt alias earum assumenda architecto beatae</p>
+                            <a href="#contact" class="button d-flex align-items-center justify-content-center">ZAREZERWUJ MIEJSCE</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <h2 class="container">Kontakt</h2>
+                <div class="container d-flex justify-content-center">
+                    <div class="row justify-content-between">
+                        <div class="col-6">
+                            <div class="contact-el d-flex">
+                                <img src="./graphics/ikona-miki.png" class="contact-icon">
+                                <div class="contact-content">
+                                    <h3>Adres</h3>
+                                    <p>Studio Urodzinowe Mickey <br/>Budynek Towarzystwa Sportowego Iskra<br/>ul. Andersa 32, Tarnowskie Góry</p>
+                                </div>
+                            </div>
+                            <div class="contact-el d-flex">
+                                <img src="./graphics/ikona-miki.png" class="contact-icon">
+                                <div class="contact-content">
+                                    <h3>Telefon</h3>
+                                    <p>+48 513 107 025</p>
+                                </div>
+                            </div>
+                            <div class="contact-el d-flex">
+                                <img src="./graphics/ikona-miki.png" class="contact-icon">
+                                <div class="contact-content">
+                                    <h3>E-mail</h3>
+                                    <p>info@studiomiki.pl</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./graphics/map.png" class="col-6"/>
+                    </div>
+                </div>
+                <div class="contact-socials container d-flex flex-column align-items-center">
+                    <h4 class="contact-h4">Śledź nas na</h4>
+                    <div class="d-flex justify-content-center">
+                        <a href="https://www.instagram.com/" class="contact-a"><img src="./graphics/insta.png"/></a>
+                        <a href="https://www.facebook.com/" class="contact-a"><img src="./graphics/fb.png"/></a>
+                    </div>
                 </div>
             </section>
         </main>
-        <footer style="height: 200vh"></footer>
+        <footer>
+            <div class="container footer-container h-100 d-flex justify-content-between align-items-center">
+                <nav
+                        class="d-flex justify-content-between nav-bottom align-items-center h-100"
+                    >
+                        <a href="#about">O NAS</a>
+                        <a href="#offer">OFERTA</a>
+                        <a href="#gallery">GALERIA</a>
+                        <a href="#calendar">KALENDARZ IMPREZ</a>
+                        <a href="#contact">KONTAKT</a>
+                    </nav>
+                    <p class="sidenote">wykonanie: adencja</p>
+            </div>
+        </footer>
     </body>
 </html>

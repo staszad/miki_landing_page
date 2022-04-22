@@ -1,0 +1,6 @@
+/* phones */
+@media screen and (max-width: 768px) {
+    .gallery-photo {
+        width: 120px;
+    }
+}
