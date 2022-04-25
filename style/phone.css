@@ -1,6 +1,109 @@
 /* phones */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
+    .container {
+        width: 80vw;
+    }
+    .regular {
+        width: 80vw;
+    }
+    .header-nav {
+        height: 140px;
+    }
+    .logo {
+        width: 150px;
+    }
+    .nav-top {
+        width: 100%;
+        height: 60px;
+    }
+    nav > a {
+        margin: 0 10px 0 10px;
+    }
+    .header-banner {
+        height: 500px;
+    }
+    #banner-kids {
+        width: 400px;
+        left: 0px;
+    }
+    #banner-text-r {
+        position: absolute;
+        width: 250px;
+        top: 150px;
+        right: 0px;
+    }
+    #about-photo {
+        margin: 0 0 30px 0;
+        align-self: center;
+    }
+    #c-red-1 {
+        top: -100px;
+    }
+    #c-yellow-2 {
+        top: 100px;
+        left: -50px;
+    }
+    .offer-el {
+        max-width: 500px;
+    }
     .gallery-photo {
-        width: 120px;
+        width: 25vw;
+    }
+    #banner-photo {
+        width: 32.5vw;
+        left: -50px;
+    }
+    .calendar-el {
+        width: 100%;
+    }
+    .calendar-el > p {
+        width: 100%;
+    }
+    footer {
+        height: 111px;
+    }
+    .nav-bottom {
+        width: 100%;
+        height: 80px;
+    }
+    .sidenote {
+        text-align: right;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 575.98px) {
+    h2 {
+        font-size: 60px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    #banner-text-r {
+        top: 200px;
+    }
+    #banner-kids {
+        width: 375px;
+    }
+    #banner-photo {
+        width: 188px;
+    }
+    .gallery-photo {
+        width: 40vw;
+    }
+    #c-yellow-4 {
+        width: 130px;
+        height: 130px;
+        left: 100px;
+    }
+    #c-red-4 {
+        width: 80px;
+        height: 80px;
+        left: 0px;
+        bottom: -180px;
+    }
+    #c-black-4 {
+        left: -40px;
+        bottom: -70px;
     }
 }

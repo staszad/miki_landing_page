@@ -34,15 +34,15 @@
                 <div
                     class="h-100 container d-flex justify-content-end align-items-center"
                 >
-                    <p class="m-0 mt-2">ZADZWOŃ</p>
+                    <p class="m-0 mt-2 d-none d-sm-block">ZADZWOŃ</p>
                     <strong class="strong-phone">+48 513 107 025</strong>
                 </div>
             </div>
             <div class="header-nav">
-                <div class="container d-flex justify-content-between">
+                <div class="container d-flex justify-content-between flex-wrap flex-md-nowrap">
                     <img src="graphics/logo.png" class="logo" />
                     <nav
-                        class="d-flex justify-content-between nav-top align-items-center"
+                        class="d-flex justify-content-evenly justify-content-md-between nav-top align-items-center flex-wrap flex-md-nowrap"
                     >
                         <a href="#about">O NAS</a>
                         <a href="#offer">OFERTA</a>
@@ -54,21 +54,23 @@
             </div>
             <div class="header-banner">
                 <div class="container p-rel h-100">
-                    <img src="./graphics/baner-napis.png" id="banner-text" />
+                    <img src="./graphics/baner-napis.png" id="banner-text" class="d-none d-md-block" />
+                    <img src="./graphics/baner-napis.png" id="banner-text-r" class="d-block d-md-none"/>
                     <img src="./graphics/ch-1.png" id="banner-cloud1" />
-                    <img src="./graphics/ch-2.png" id="banner-cloud2" />
-                    <img src="./graphics/ch-3.png" id="banner-cloud3" class="d-none d-lg-block"/>
-                    <img src="./graphics/baner-dzieci.png" id="banner-kids" />
+                    <img src="./graphics/ch-2.png" id="banner-cloud2" class="d-none d-md-block"/>
+                    <img src="./graphics/ch-3.png" id="banner-cloud3" class="d-none d-xl-block"/>
+                    <img src="./graphics/baner-dzieci.png" id="banner-kids"  />
                 </div>
             </div>
         </header>
         <main>
             <section id="about">
+                <!-- <div class="circle c-big-grey" id="c-grey-1"></div> -->
                 <h2 class="container">O nas</h2>
                 <div
-                    class="container d-flex justify-content-between p-rel h-100"
+                class="container d-flex flex-column flex-md-row justify-content-between p-rel h-100"
                 >
-                    <div class="placeholder"></div>
+                    <div class="placeholder d-none d-xl-block"></div>
                     <img
                         src="./graphics/fotka-o-nas.png"
                         class="circle"
@@ -106,7 +108,7 @@
                         class="circle-abs"
                         id="c-yellow-2"
                     />
-                    <div class="circle-abs circle" id="c-red-2"></div>
+                    <div class="circle-abs circle d-none d-md-block" id="c-red-2"></div>
                     <div class="circle-abs circle" id="c-black-3"></div>
 
                     <img
@@ -120,17 +122,17 @@
             <section id="offer">
                 <h2 class="container">Oferta</h2>
                 <div class="container">
-                    <div class="row row-cols-3 justify-content-between">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-evenly justify-content-lg-between">
                         <div class="col offer-el d-flex flex-column align-items-center">
                             <img src="./graphics/ikona-miki.png" class="offer-icon" />
-                            <h3 class="offer-h">ORGANIZACJA URODZIN</h3 class="offer-h">
+                            <h3 class="offer-h offer-h-100">ORGANIZACJA URODZIN</h3 class="offer-h">
                             <p class="regular">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum ante at justo feugiat, eu posuere dui rutrum. Cras quis tempus eros, a bibendum eros. Curabitur eget lobortis ante. Etiam vitae lectus ullamcorper enim accumsan lobortis quis non sem. In hac habitasse platea dictumst. Nulla hendrerit lorem eu leo tempus, non scelerisque velit egestas. Ut interdum suscipit sodales.
                             </p>
                         </div>
                         <div class="col offer-el d-flex flex-column align-items-center">
                             <img src="./graphics/ikona-miki.png" class="offer-icon" />
-                            <h3 class="offer-h">WEEKENDOWE WARSZTATY DLA DZIECI</h3 class="offer-h">
+                            <h3 class="offer-h offer-h-100">WEEKENDOWE WARSZTATY DLA DZIECI</h3 class="offer-h">
                             <p class="regular">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum ante at justo feugiat, eu posuere dui rutrum. Cras quis tempus eros, a bibendum eros. Curabitur eget lobortis ante. Etiam vitae lectus ullamcorper enim accumsan lobortis quis non sem. In hac habitasse platea dictumst. Nulla hendrerit lorem eu leo tempus, non scelerisque velit egestas. Ut interdum suscipit sodales.
                             </p>
@@ -189,14 +191,14 @@
                         <img src="./graphics/gallery/10.png" class="col gallery-photo">
                         <img src="./graphics/gallery/11.png" class="col gallery-photo">
                         <img src="./graphics/gallery/1.png" class="col gallery-photo">
-                        <img src="./graphics/gallery/2.png" class="col gallery-photo">
-                        <img src="./graphics/gallery/3.png" class="col gallery-photo">
-                        <img src="./graphics/gallery/4.png" class="col gallery-photo">
-                        <img src="./graphics/gallery/5.png" class="col gallery-photo">
-                        <img src="./graphics/gallery/6.png" class="col gallery-photo">
-                        <img src="./graphics/gallery/7.png" class="col gallery-photo">
-                        <img src="./graphics/gallery/8.png" class="col gallery-photo">
-                        <img src="./graphics/gallery/9.png" class="col gallery-photo">
+                        <img src="./graphics/gallery/2.png" class="col gallery-photo d-none d-sm-block">
+                        <img src="./graphics/gallery/3.png" class="col gallery-photo d-none d-sm-block">
+                        <img src="./graphics/gallery/4.png" class="col gallery-photo d-none d-sm-block">
+                        <img src="./graphics/gallery/5.png" class="col gallery-photo d-none d-sm-block">
+                        <img src="./graphics/gallery/6.png" class="col gallery-photo d-none d-sm-block">
+                        <img src="./graphics/gallery/7.png" class="col gallery-photo d-none d-sm-block">
+                        <img src="./graphics/gallery/8.png" class="col gallery-photo d-none d-md-block">
+                        <img src="./graphics/gallery/9.png" class="col gallery-photo d-none d-md-block">
                         <img src="./graphics/gallery/10.png" class="col gallery-photo d-none d-lg-block">
                         <img src="./graphics/gallery/11.png" class="col gallery-photo d-none d-lg-block">
                         <img src="./graphics/gallery/4.png" class="col gallery-photo d-none d-lg-block">
@@ -208,7 +210,7 @@
             </section>
             <section id="gradient" class="d-flex align-items-center">
                 <div class="container d-flex flex-column align-items-center justify-content-center p-rel">
-                    <h4>Współpracujemy z pasjonatami fotografii i licencjonowanymi kierowcami</h4>
+                    <h4 id="gradient-h">Współpracujemy z pasjonatami fotografii i licencjonowanymi kierowcami</h4>
                     <a href="#contact" class="button d-flex align-items-center justify-content-center">CHCESZ PODJĄĆ WSPÓŁPRACĘ? SKONTAKTUJ SIĘ Z NAMI!</a>
                     <div class="circle-abs circle" id="c-black-4"></div>
                     <div class="circle-abs circle" id="c-red-4"></div>
@@ -222,7 +224,7 @@
             <section id="calendar" >
                 <h2 class="container">Kalendarz imprez</h2>
                 <div class="container">
-                    <div class="row row-colls-2 justify-content-between">
+                    <div class="row row-cols-1 row-cols-md-2 justify-content-between">
                         <div class="calendar-el">
                             <div class="calendar-date">data: 
                                 <strong class="calendar-strong">01.01.2019 r.</strong>
@@ -262,7 +264,7 @@
                 <h2 class="container">Kontakt</h2>
                 <div class="container d-flex justify-content-center">
                     <div class="row justify-content-between">
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="contact-el d-flex">
                                 <img src="./graphics/ikona-miki.png" class="contact-icon">
                                 <div class="contact-content">
@@ -285,7 +287,7 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="./graphics/map.png" class="col-6"/>
+                        <img src="./graphics/map.png" class="col-6" id="contact-map"/>
                     </div>
                 </div>
                 <div class="contact-socials container d-flex flex-column align-items-center">
@@ -298,18 +300,19 @@
             </section>
         </main>
         <footer>
-            <div class="container footer-container h-100 d-flex justify-content-between align-items-center">
+            <div class="container footer-container d-flex justify-content-between align-items-center flex-wrap flex-md-nowrap h-100">
                 <nav
-                        class="d-flex justify-content-between nav-bottom align-items-center h-100"
-                    >
-                        <a href="#about">O NAS</a>
-                        <a href="#offer">OFERTA</a>
-                        <a href="#gallery">GALERIA</a>
-                        <a href="#calendar">KALENDARZ IMPREZ</a>
-                        <a href="#contact">KONTAKT</a>
-                    </nav>
-                    <p class="sidenote">wykonanie: adencja</p>
+                    class="d-flex flex-wrap flex-md-nowrap justify-content-between nav-bottom align-items-center justify-content-evenly justify-content-md-between"
+                >
+                    <a href="#about">O NAS</a>
+                    <a href="#offer">OFERTA</a>
+                    <a href="#gallery">GALERIA</a>
+                    <a href="#calendar">KALENDARZ IMPREZ</a>
+                    <a href="#contact">KONTAKT</a>
+                </nav>
+                <p class="sidenote">wykonanie: adencja</p>
             </div>
         </footer>
+        <script src="./js/main.js" type="module"></script>
     </body>
 </html>
