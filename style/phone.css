@@ -7,10 +7,16 @@
         width: 80vw;
     }
     .header-nav {
-        height: 140px;
+        height: 130px;
     }
     .logo {
         width: 150px;
+    }
+    #logo-r {
+        position: absolute;
+        width: 150px;
+        right: -10px;
+        top: -10px;
     }
     .nav-top {
         width: 100%;
@@ -59,17 +65,23 @@
     .calendar-el > p {
         width: 100%;
     }
+    .button {
+        width: 100%;
+    }
     footer {
-        height: 111px;
+        height: 140px;
     }
     .nav-bottom {
         width: 100%;
-        height: 80px;
+        height: 100px;
     }
     .sidenote {
         text-align: right;
         width: 100%;
         margin-bottom: 5px;
+    }
+    .contact-content {
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 575.98px) {
@@ -105,5 +117,17 @@
     #c-black-4 {
         left: -40px;
         bottom: -70px;
+    }
+}
+@media screen and (max-width: 423px) {
+    h2 {
+        font-size: 52px;
+    }
+    #contact-map {
+        width: 91vw;
+        height: 80.4vw;
+    }
+    .strong-phone {
+        font-size: 20px;
     }
 }

@@ -34,15 +34,16 @@
                 <div
                     class="h-100 container d-flex justify-content-end align-items-center"
                 >
-                    <p class="m-0 mt-2 d-none d-sm-block">ZADZWOŃ</p>
+                    <p class="m-0 mt-2">ZADZWOŃ</p>
                     <strong class="strong-phone">+48 513 107 025</strong>
                 </div>
             </div>
             <div class="header-nav">
-                <div class="container d-flex justify-content-between flex-wrap flex-md-nowrap">
-                    <img src="graphics/logo.png" class="logo" />
+                <div class="container p-rel d-flex justify-content-between flex-wrap flex-md-nowrap">
+                    <img src="graphics/logo.png" class="logo d-none d-md-block" />
+                    <img src="graphics/logo.png" class="d-block d-md-none" id="logo-r" />
                     <nav
-                        class="d-flex justify-content-evenly justify-content-md-between nav-top align-items-center flex-wrap flex-md-nowrap"
+                        class="d-flex flex-column flex-md-row justify-content-between justify-content-md-between nav-top align-items-start align-items-md-center"
                     >
                         <a href="#about">O NAS</a>
                         <a href="#offer">OFERTA</a>
@@ -301,8 +302,11 @@
         </main>
         <footer>
             <div class="container footer-container d-flex justify-content-between align-items-center flex-wrap flex-md-nowrap h-100">
-                <nav
+                <!-- <nav
                     class="d-flex flex-wrap flex-md-nowrap justify-content-between nav-bottom align-items-center justify-content-evenly justify-content-md-between"
+                > -->
+                <nav
+                    class="d-flex flex-column flex-md-row justify-content-between justify-content-md-between nav-bottom align-items-start align-items-md-center"
                 >
                     <a href="#about">O NAS</a>
                     <a href="#offer">OFERTA</a>
